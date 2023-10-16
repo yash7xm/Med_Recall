@@ -7,6 +7,8 @@ function Main() {
         <div className="main">
             <InfoTab />
             <ShowTab />
+            <img src="https://assets-global.website-files.com/6398b11ee9bf53ef62055173/63c60fdbb097afec71abada2_head2-p-800.webp" alt="" />
+
         </div>
     )
 }

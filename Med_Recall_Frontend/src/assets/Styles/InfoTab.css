@@ -42,6 +42,7 @@
 .heading-info {
     font-size: 1rem;
     font-weight: bold;
+    letter-spacing: 0.1em;
 }
 
 .desc1 {
@@ -55,6 +56,53 @@
     padding-bottom: 1.5rem;
     border-bottom: 1px solid rgba(0,0,0,.2);
 }
+
+.info-tab-btm {
+    padding-top: 2rem;}
+
+
+
+.btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.btns div {
+    font-size: 0.8rem;
+    font-family: text-fonts;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 20px;
+    padding: 0.5rem;
+    letter-spacing: 0.2em;
+    /* background-color: rgba(0,0,0,.2); */
+    color: rgba(0,0,0,.8);
+    cursor: pointer;
+}
+
+.footer-menu {
+    display: flex;
+    margin-top: 3.6rem;
+    gap: 2rem;
+    color: rgba(0,0,0,.8);
+}
+
+.footer-menu div {
+    display: flex;
+    gap: 0.5rem;
+    border: 1px solid rgba(0,0,0,.2);
+    padding: 0.25rem 1rem;
+}
+
+.footer {
+    padding: 0.9rem;
+}
+
+.set-rem-btn {
+   background-color: rgba(0,0,0,.2);
+}
+
+
 
 
 
