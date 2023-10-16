@@ -1,4 +1,27 @@
 .show-tab {
     width: 62.5%;
     height: 90%;
+    padding-left: 2rem;
+}
+
+.show-tab-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.show-tab-wrapper::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.show-tab-wrapper::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.show-tab-wrapper::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+    border-radius: 4px;
 }
