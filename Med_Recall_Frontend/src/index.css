@@ -19,6 +19,11 @@
   src: url(/home/yash/Med_Recall/Med_Recall_Frontend/src/assets/Fonts/Akkurat-Mono.OTF);
 }
 
+@font-face {
+  font-family: textFont;
+  src: url(Med_Recall_Frontend/src/assets/Fonts/ProggyVector-Regular-Mac.otf);
+}
+
 * {
   box-sizing: border-box;
 }
