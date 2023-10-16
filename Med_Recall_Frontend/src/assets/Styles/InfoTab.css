@@ -1,0 +1,32 @@
+.info-tab {
+    width: 32.5%;
+    height: 90%;
+    padding-right: 3rem;
+    border-right: 1px dashed rgba(0,0,0,.2);
+}
+
+.menu {
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    font-family: text-fonts;
+    padding: 0.5rem 0rem;
+}
+
+.menu div{
+    display: flex;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.logo-btn {
+    font-size: 0.8rem;
+    padding-right: 1rem;
+    border-right: 1px solid rgba(0,0,0,.2);
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+

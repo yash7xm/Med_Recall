@@ -14,6 +14,15 @@
   -webkit-text-size-adjust: 100%;
 }
 
+@font-face {
+  font-family: text-fonts;
+  src: url(/home/yash/Med_Recall/Med_Recall_Frontend/src/assets/Fonts/Akkurat-Mono.OTF);
+}
+
+* {
+  box-sizing: border-box;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
