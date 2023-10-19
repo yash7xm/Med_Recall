@@ -1,5 +1,5 @@
 .set-rem {
-    height: 70%;
+    height: 85%;
     width: 98%;
     background-color: rgba(0,0,0,.05);
     border-top-right-radius: 12px;
@@ -10,7 +10,7 @@
 }
 
 .set-rem-main {
-    height: 80%;
+    height: 85%;
     width: 100%;
     border: 1px solid rgba(0,0,0,.2);
     border-radius: 12px;
@@ -20,7 +20,7 @@
 }
 
 .set-rem-info {
-    height: 20%;
+    height: 15%;
     width: 100%;   
 }
 
