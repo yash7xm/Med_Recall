@@ -1,4 +1,4 @@
-.med-name {
+.med-date {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -7,19 +7,19 @@
     width: 100%;
 }
 
-.med-name-icon {
+.med-date-icon {
     font-size: 2rem;
-    color: green;
+    color: steelblue;
 }
 
-.med-name-heading {
+.med-date-heading {
     /* margin-top: -3rem; */
     color: rgba(0,0,0,.8);
     font-family: text-fonts;
     font-size: 1rem;
 }
 
-.med-name-input {
+.med-date-input {
     width: 50%;
 }
 
