@@ -5,10 +5,11 @@ import MedDate from './MedDate';
 import MedTime from './MedTime';
 import MedFreq from './MedFreq';
 import MedCareTaker from './MedCareTaker';
+import FinalMessage from './FinalMessage';
 
 function SetRem() {
     const [currentStep, setCurrentStep] = useState(0);
-    const components = [MedName, MedDate, MedTime, MedFreq, MedCareTaker];
+    const components = [MedName, MedDate, MedTime, MedFreq, MedCareTaker, FinalMessage];
 
     const handleNextClick = () => {
         if (currentStep < components.length - 1) {
