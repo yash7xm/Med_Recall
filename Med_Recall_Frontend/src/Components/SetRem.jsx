@@ -3,6 +3,7 @@ import MedName from './MedName'
 import MedDate from './MedDate'
 import MedTime from './MedTime'
 import MedFreq from './MedFreq'
+import MedCareTaker from './MedCareTaker'
 
 
 function SetRem() {
@@ -12,7 +13,8 @@ function SetRem() {
               {/* <MedName /> */}
               {/* <MedDate /> */}
               {/* <MedTime /> */}
-              <MedFreq />
+              {/* <MedFreq /> */}
+              <MedCareTaker />
             </div>
             <div className="set-rem-info">
                 <div className="rem-info-head">New Remainder</div>
